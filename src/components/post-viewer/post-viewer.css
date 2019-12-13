@@ -1,0 +1,13 @@
+.post-viewer {
+    background-color: white;
+    height: 100%;
+  }
+  
+  .post-viewer img {
+    max-width: 100px;
+  }
+  
+  .post-viewer .row {
+    margin-top:5px;
+    margin-bottom: 10px;
+  }

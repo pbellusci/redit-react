@@ -1,6 +1,7 @@
 import "./home.css";
 import React from "react";
 import Page from "./page";
+import { connect } from "react-redux";
 
 class Home extends React.Component {
 	constructor(props) {
@@ -8,9 +9,17 @@ class Home extends React.Component {
 	}
 
 	render() {
-    const $loading = true
-		return <Page loading={$loading} />;
+		return <Page loading={this.props.isFetching} />;
 	}
 }
+const mapStateToProps = state => {
+	return {
+		isFetching: state.posts.isFetching
+	};
+};
 
-export default Home;
+const mapDispatchToProps = dispatch => {
+	return {};
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(Home);

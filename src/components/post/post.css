@@ -1,0 +1,55 @@
+.post {
+    padding:5px 0;
+    border-bottom: 1px solid grey
+  }
+  .post h3.username, .post .date  {
+    color:White;
+    font-size:13px;
+  }
+  
+  .post .date   {
+    margin-top:5px;
+  }
+  
+  .post h3.username {
+    font-size:18px;
+  }
+  .post .fa-circle {
+    color:blue;
+    margin-right:5px;
+    font-size:12px;
+  }
+  
+  .post .content-wrapper{
+    display: inline-block;
+    height: 100px;
+  }
+  .post p.content {
+    color:white;
+    padding:0;
+    margin:0;
+    
+  }
+  
+  .post div.arrow-wrapper {
+    height:100px;
+    cursor:pointer;
+    color:White;
+  }
+  
+  .post button.dismiss-post {
+   color:White; 
+   text-decoration: none;
+   margin-top:5px;
+   display:block;
+   background-color:transparent;
+   border:none;
+  }
+  
+  .post button.dismiss-post {
+    color:darkorange;
+  }
+  
+  .post .comments-counter {
+    color:darkorange;
+  }

@@ -1,0 +1,25 @@
+.section-title {
+    background-color: #111111;
+    display:block
+}
+.section-title h2{
+    color: white;
+}
+
+.dismiss-all-button {
+    color:orange;
+    background-color: transparent;
+    border:none
+}
+.lis-post-wrapper {
+    overflow:auto;
+}
+
+.header-posts, .footer-posts {
+    height: 8vh;
+    padding: 0;
+    display: block
+}
+.wrapper-posts {
+    height:80vh;
+}
